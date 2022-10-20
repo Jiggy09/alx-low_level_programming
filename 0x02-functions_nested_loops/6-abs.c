@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 
 /**
  * _abs - return absolute value of a number
@@ -7,5 +7,7 @@ nclude "main.h"
  */
 int _abs(int n)
 {
-	retur
+	if (n < 0)
+	n = -n;
+	return (n);
 }
